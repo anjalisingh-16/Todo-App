@@ -129,8 +129,9 @@ input{
 .login form button{
       height: 40px;
       border-radius: 5px;
-      background-color:red;
-      color: white;
+      background-color:rgb(129, 208, 215);
+      color:black;
+
       border: none;
       font-size: 18px;
       font-weight: 500;
@@ -234,13 +235,13 @@ outline:none;
 {
   margin-top:22px;
   padding:5px 4px;
+  margin-right:10px;
 cursor:pointer;
 outline:none;
 border:none;
-background-color:pink;
+background-color:mediumaquamarine;
 font-weight:bold;
 border-radius:5px;
-border-color:mediumaquamarine;
 }
 .signout_btn button:hover{
   background-color:black;
@@ -252,4 +253,9 @@ border-color:mediumaquamarine;
 }
 .main_container{
   background-color: #a2b6d2;
+
+ 
+}
+.container Link{
+  text-decoration:none;
 }

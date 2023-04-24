@@ -2,6 +2,8 @@ import React from 'react'
 import {useState} from "react";
 import axios from "axios";
 import {useHistory} from "react-router-use-history";
+import {Link } from "react-router-dom";
+import{Login} from "@mui/icons-material";
 const CryptoJS = require("crypto-js");
 const Register = () => {
     const[userName,setUserName]=useState("");
@@ -22,6 +24,7 @@ const Register = () => {
    }
   return (
 <div className="register_container">
+    
     <div className="register">
       <form  className="register_form" onSubmit={handleSubmit}>
       <h2 id="signup">SIGN UP</h2>
@@ -29,6 +32,7 @@ const Register = () => {
       <input type="text" value ={email} placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/>
         <input type="text" value={password} placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/>
        <div className="regisbtn"><button type="submit">REGISTER</button></div> 
+      
       </form>
     </div>
     </div>
